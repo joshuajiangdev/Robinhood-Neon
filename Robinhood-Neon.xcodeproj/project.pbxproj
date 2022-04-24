@@ -13,6 +13,10 @@
 		F95B1D862815C4CC00D0E3F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95B1D742815C4C400D0E3F6 /* ContentView.swift */; };
 		F95B1D872815C4CC00D0E3F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95B1D752815C4CC00D0E3F6 /* Assets.xcassets */; };
 		F95B1D882815C4CC00D0E3F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95B1D752815C4CC00D0E3F6 /* Assets.xcassets */; };
+		F95B1D922815C62D00D0E3F6 /* RobinhoodLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95B1D912815C62D00D0E3F6 /* RobinhoodLogo.swift */; };
+		F95B1D932815C62D00D0E3F6 /* RobinhoodLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95B1D912815C62D00D0E3F6 /* RobinhoodLogo.swift */; };
+		F95B1D952815CEFD00D0E3F6 /* NeonEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95B1D942815CEFD00D0E3F6 /* NeonEffect.swift */; };
+		F95B1D962815CEFD00D0E3F6 /* NeonEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95B1D942815CEFD00D0E3F6 /* NeonEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,8 @@
 		F95B1D7A2815C4CC00D0E3F6 /* Robinhood-Neon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robinhood-Neon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95B1D802815C4CC00D0E3F6 /* Robinhood-Neon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robinhood-Neon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95B1D822815C4CC00D0E3F6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F95B1D912815C62D00D0E3F6 /* RobinhoodLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobinhoodLogo.swift; sourceTree = "<group>"; };
+		F95B1D942815CEFD00D0E3F6 /* NeonEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,8 @@
 				F95B1D732815C4C400D0E3F6 /* Robinhood_NeonApp.swift */,
 				F95B1D742815C4C400D0E3F6 /* ContentView.swift */,
 				F95B1D752815C4CC00D0E3F6 /* Assets.xcassets */,
+				F95B1D912815C62D00D0E3F6 /* RobinhoodLogo.swift */,
+				F95B1D942815CEFD00D0E3F6 /* NeonEffect.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -176,8 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95B1D952815CEFD00D0E3F6 /* NeonEffect.swift in Sources */,
 				F95B1D852815C4CC00D0E3F6 /* ContentView.swift in Sources */,
 				F95B1D832815C4CC00D0E3F6 /* Robinhood_NeonApp.swift in Sources */,
+				F95B1D922815C62D00D0E3F6 /* RobinhoodLogo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +195,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95B1D962815CEFD00D0E3F6 /* NeonEffect.swift in Sources */,
 				F95B1D862815C4CC00D0E3F6 /* ContentView.swift in Sources */,
 				F95B1D842815C4CC00D0E3F6 /* Robinhood_NeonApp.swift in Sources */,
+				F95B1D932815C62D00D0E3F6 /* RobinhoodLogo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
